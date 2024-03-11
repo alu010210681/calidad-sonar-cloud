@@ -1,11 +1,11 @@
 {
-  "name": "Calidad Sonar Cloud",
+  "name": "Calidad-Sonar-Cloud",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "dev": "tsc-watch --onSuccess \"node dist/FacadeSistemaVuelos.js\"",
+    "dev": "tsc-watch --onSuccess \"node dist/*.js\"",
     "doc": "typedoc",
     "test": "mocha",
     "coverage": "c8 npm test && c8 report --reporter=lcov"
